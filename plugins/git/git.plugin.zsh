@@ -67,6 +67,7 @@ compdef _git gss=git-status
 alias ga='git add'
 compdef _git ga=git-add
 alias gm='git merge'
+alias gmnf='git merge --no-ff'
 compdef _git gm=git-merge
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
